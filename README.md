@@ -1,6 +1,6 @@
 ### Svelte / Ivy
 
-A comparison of compiled output from Svelte versus Ivy:
+A comparison of compiled output from Svelte versus Ivy, in the spirit of [friendly competition](https://twitter.com/Rich_Harris/status/978695617550737408):
 
 ![screen shot 2018-03-27 at 1 54 29 pm](https://user-images.githubusercontent.com/1162160/37985367-88f7d82e-31c6-11e8-9c9d-692e9d2f57fc.png)
 
