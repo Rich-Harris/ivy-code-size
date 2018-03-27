@@ -1,3 +1,13 @@
+### Svelte / Ivy
+
+A comparison of compiled output from Svelte versus Ivy:
+
+TODO images
+
+Original README below.
+
+---
+
 ### Angular Ivy Demo
 
 "Ivy" is the experimental, not-yet-feature-complete upcoming view engine for the Angular framework. The main focus of Ivy is drastically reduced code size and increased flexibility.
@@ -12,7 +22,7 @@ When it's done.
 
 #### When will it be done?
 
-Watch https://github.com/angular/angular/issues/21706 to track the progress. 
+Watch https://github.com/angular/angular/issues/21706 to track the progress.
 
 #### ____ doesn't work!!!
 
