@@ -1,11 +1,8 @@
-import buildOptimizer from 'rollup-plugin-angular-optimizer'
-import nodeResolve from 'rollup-plugin-node-resolve';
-import paths from 'rollup-plugin-paths';
-import pathMapping from 'rxjs/_esm5/path-mapping';
+import svelte from 'rollup-plugin-svelte';
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-  input: `./lib/src/hello-world.js`,
+  input: `./src/hello-world.html`,
   output: {
     name: 'hw',
     file: `public/bundle.js`,
@@ -13,21 +10,9 @@ export default {
     sourcemap: true
   },
   plugins: [
-    paths(pathMapping()),
-    nodeResolve({jsnext: true, module: true}),
-    buildOptimizer(),
-    uglify({
-      mangle: true,
-      compress: {
-        global_defs: {
-          'ngDevMode': false,
-        },
-        keep_fargs: false,
-        passes: 3,
-        pure_getters: true,
-        unsafe: true,
-      }
-    })
-  ],
-  external: []
+    svelte({
+      customElement: true
+    }),
+    uglify()
+  ]
 }
