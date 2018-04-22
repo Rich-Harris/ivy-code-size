@@ -13,6 +13,6 @@ export default {
     svelte({
       customElement: true
     }),
-    uglify()
+    // uglify()
   ]
 }

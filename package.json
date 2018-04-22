@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-   "http-server": "^0.11.1",
-    "rollup": "^0.55.3",
-    "rollup-plugin-svelte": "^4.0.0",
+    "http-server": "^0.11.1",
+    "rollup": "^0.58.1",
+    "rollup-plugin-svelte": "^4.1.0",
     "rollup-plugin-uglify": "^3.0.0",
-    "svelte": "^1.58.2"
+    "svelte": "^2.0.0"
   },
   "scripts": {
     "bundle": "rollup -c rollup.config.js",
