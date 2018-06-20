@@ -2,7 +2,7 @@
 
 A comparison of compiled output from Svelte versus Ivy, in the spirit of [friendly competition](https://twitter.com/Rich_Harris/status/978695617550737408):
 
-![screen shot 2018-03-27 at 1 54 29 pm](https://user-images.githubusercontent.com/1162160/37985367-88f7d82e-31c6-11e8-9c9d-692e9d2f57fc.png)
+![ivy-comparison](https://user-images.githubusercontent.com/1162160/41678762-0899a33a-749a-11e8-8aa4-3c3dcf39158b.png)
 
 Svelte is on the left (2.4kb, 1.1kb zipped), Ivy is on the right (8.7kb, 3.2kb zipped).
 
