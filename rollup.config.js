@@ -1,5 +1,5 @@
 import svelte from 'rollup-plugin-svelte';
-import uglify from 'rollup-plugin-uglify';
+import { terser } from 'rollup-plugin-terser';
 
 export default {
   input: `./src/hello-world.html`,
@@ -13,6 +13,6 @@ export default {
     svelte({
       customElement: true
     }),
-    // uglify()
+    terser()
   ]
 }
